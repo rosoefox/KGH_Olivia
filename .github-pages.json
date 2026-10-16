@@ -1,0 +1,13 @@
+{
+  "config": "hugo.toml,pages.json",
+  "theme": "template",
+  "sample": "exampleSite",
+  "version": "0.167.0",
+  "slug": "hugo-theme-spectra",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/rosoefox/KGH_Olivia.git",
+  "baseURL": "https://rosoefox.github.io/KGH_Olivia/",
+  "audited": true
+}

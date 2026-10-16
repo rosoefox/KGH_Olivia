@@ -1,0 +1,32 @@
+# Hugo build output
+exampleSite/static
+exampleSite/public/
+exampleSite/resources/
+resources/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Prepared Hugo Pages site
+!/site/
+!/site/**
+!/.github/
+!/.github/**
+!/.github-pages.json
+/public/
+/.pages-tools/
+**/node_modules/
+**/resources/_gen/
+**/.hugo_build.lock
+/.github-pages-setup-backups/
