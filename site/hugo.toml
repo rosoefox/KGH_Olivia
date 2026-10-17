@@ -1,5 +1,5 @@
 baseURL = 'https://example.com'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = false
 
 
@@ -93,81 +93,43 @@ defaultContentLanguageInSubdir = false
 # ============================================
 
 [languages]
-  [languages.zh-tw]
-    languageCode = 'zh-tw'
-    languageName = '繁體中文'
+  [languages.ko]
+    languageCode = 'ko'
+    languageName = '한국어'
     weight = 1
     title = 'Spectra Demo'
 
-    [languages.zh-tw.params]
-      description = '一款具有科幻風格的 Hugo 部落格主題'
-      author = 'Your name'
-      tagline = '// Developer'
-      bio = '這是一個示範網站，展示 Spectra 主題的所有功能。'
-      #banner = '/images/demo02.jpg'
-      #avatar = '/images/avatar.webp'
-
-      [[languages.zh-tw.params.social]]
-        name = "GitHub"
-        url = "https://github.com/JoeYang1412"
-      [[languages.zh-tw.params.social]]
-        name = "Twitter"
-        url = "https://x.com/YangJoe0208"
-      [[languages.zh-tw.params.social]]
-        name = "hackmd"
-        url = "https://hackmd.io/@JoeYang"
-
-    # -- Navigation Menu --
-    [[languages.zh-tw.menus.main]]
-      name = "首頁"
-      pageRef = "/"
-      weight = 1
-      pre = "⌂"
-    [[languages.zh-tw.menus.main]]
-      name = "文章"
-      pageRef = "/posts"
-      weight = 2
-      pre = "✎"
-    [[languages.zh-tw.menus.main]]
-      name = "關於"
-      pageRef = "/about"
-      weight = 5
-      pre = "◉"
-
-  [languages.en]
-    languageCode = 'en'
-    languageName = 'English'
-    weight = 2
-    title = 'Spectra Demo'
-
-    [languages.en.params]
+    [languages.ko.params]
       description = 'A sci-fi fusion Hugo blog theme'
       author = 'Your name'
       tagline = '// Developer'
       bio = 'This is a demo site showcasing all features of the Spectra theme.'
+      #banner = '/images/demo02.jpg'
+      #avatar = '/images/avatar.webp'
 
-      [[languages.en.params.social]]
+      [[languages.ko.params.social]]
         name = "GitHub"
         url = "https://github.com/JoeYang1412"
-      [[languages.en.params.social]]
+      [[languages.ko.params.social]]
         name = "Twitter"
         url = "https://x.com/YangJoe0208"
-      [[languages.en.params.social]]
+      [[languages.ko.params.social]]
         name = "hackmd"
         url = "https://hackmd.io/@JoeYang"
 
-    [[languages.en.menus.main]]
-      name = "Home"
+    # -- Navigation Menu --
+    [[languages.ko.menus.main]]
+      name = "홈"
       pageRef = "/"
       weight = 1
       pre = "⌂"
-    [[languages.en.menus.main]]
-      name = "Blog"
+    [[languages.ko.menus.main]]
+      name = "글"
       pageRef = "/posts"
       weight = 2
       pre = "✎"
-    [[languages.en.menus.main]]
-      name = "About"
+    [[languages.ko.menus.main]]
+      name = "소개"
       pageRef = "/about"
       weight = 5
       pre = "◉"

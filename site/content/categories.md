@@ -1,4 +1,4 @@
 ---
-title: "分類"
+title: "카테고리"
 layout: "categories"
 ---
