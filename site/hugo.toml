@@ -1,4 +1,4 @@
-baseURL = 'https://example.com'
+baseURL = 'https://rosoefox.github.io/KGH_Olivia/'
 defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = false
 
@@ -20,12 +20,13 @@ defaultContentLanguageInSubdir = false
   relatedPostsLimit = 3
   cardImageQuality = 80
   coverImageQuality = 85
-  # contentImageQuality = 90         # 內文圖片壓縮品質（1-100，需搭配 imageOptimize = true，預設已開啟）
+  # contentImageQuality = 90
 
-  # === Banner Text (uncomment to customize) ===
-  # bannerTitle = 'My'
-  # bannerHighlight = 'Tech Notes'
-  # bannerSubtitle = '// blog × code × ideas'
+  # === Banner Text ===
+  # 배너 문구를 비워 두기 위해 공백 한 칸을 지정 (빈 문자열이면 테마 기본 문구가 표시됨)
+  bannerTitle = ' '
+  # bannerHighlight = ''
+  bannerSubtitle = ' '
 
   # === Feature Toggles (default: true, set false to disable) ===
   enableLoadingAnimation = true
@@ -41,6 +42,7 @@ defaultContentLanguageInSubdir = false
   enableScrollAnimation = true
 
   # === Share ===
+  share = false
   sharePlatforms = ['twitter', 'facebook', 'linkedin']
 
   # === Advanced: Custom CSS/JS ===
@@ -69,7 +71,7 @@ defaultContentLanguageInSubdir = false
     categoryLimit = 5
     tagsLimit = 20
     recentLimit = 5
-    # tagWarmThreshold = 3   # 文章數 >= 此值的標籤顯示粉色（不設定則自動計算）
+    # tagWarmThreshold = 3
 
 [markup]
   [markup.highlight]
@@ -97,25 +99,19 @@ defaultContentLanguageInSubdir = false
     languageCode = 'ko'
     languageName = '한국어'
     weight = 1
-    title = 'Spectra Demo'
+    title = "가현's Portfolio"
 
     [languages.ko.params]
-      description = 'A sci-fi fusion Hugo blog theme'
-      author = 'Your name'
-      tagline = '// Developer'
-      bio = 'This is a demo site showcasing all features of the Spectra theme.'
+      description = '축산 AI 개발자 김가현 포트폴리오'
+      author = '김가현 / Olivia'
+      tagline = '// 축산 AI 개발자'
+      bio = '동물생명공학과 · 컴퓨터공학과'
       #banner = '/images/demo02.jpg'
       #avatar = '/images/avatar.webp'
 
       [[languages.ko.params.social]]
         name = "GitHub"
-        url = "https://github.com/JoeYang1412"
-      [[languages.ko.params.social]]
-        name = "Twitter"
-        url = "https://x.com/YangJoe0208"
-      [[languages.ko.params.social]]
-        name = "hackmd"
-        url = "https://hackmd.io/@JoeYang"
+        url = "https://github.com/rosoefox"
 
     # -- Navigation Menu --
     [[languages.ko.menus.main]]
