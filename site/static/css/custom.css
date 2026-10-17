@@ -1,0 +1,102 @@
+/* ============================================
+   Custom color palette (teal × lavender)
+   #CCABD8 lavender / #8474A1 purple / #6EC6CA aqua
+   #08979D teal / #055B5C deep teal
+   테마 원본(_variables.scss)의 색 변수를 덮어씀
+   ============================================ */
+
+/* Light mode */
+:root {
+  --accent: #055b5c;
+  --accent-soft: #ccabd8;
+  --accent-warm: #8474a1;
+  --accent-glow: rgba(8, 151, 157, 0.12);
+  --accent-warm-glow: rgba(132, 116, 161, 0.12);
+  --border: rgba(8, 151, 157, 0.2);
+  --border-warm: rgba(132, 116, 161, 0.18);
+  --grid-color: rgba(8, 151, 157, 0.05);
+  --corner-bracket: rgba(8, 151, 157, 0.45);
+  --selection-bg: rgba(110, 198, 202, 0.3);
+  --code-copy-border: rgba(8, 151, 157, 0.2);
+
+  --notice-important: #8474a1;
+  --notice-important-border: #ccabd8;
+  --notice-important-bg: rgba(204, 171, 216, 0.15);
+
+  --banner-bg-1: #dff1f2;
+  --banner-bg-2: #e9e0f0;
+  --banner-bg-accent-1: rgba(110, 198, 202, 0.3);
+  --banner-bg-accent-2: rgba(204, 171, 216, 0.25);
+  --banner-overlay: linear-gradient(135deg, rgba(240, 242, 248, 0.3), rgba(8, 151, 157, 0.12));
+  --banner-gradient-from: #08979d;
+  --banner-gradient-to: #8474a1;
+}
+
+/* Dark mode (테마의 dark-colors 믹스인과 같은 선택자 사용) */
+[data-theme="dark"] {
+  --accent: #6ec6ca;
+  --accent-soft: #ccabd8;
+  --accent-warm: #ccabd8;
+  --accent-glow: rgba(110, 198, 202, 0.18);
+  --accent-warm-glow: rgba(204, 171, 216, 0.15);
+  --border: rgba(110, 198, 202, 0.2);
+  --border-warm: rgba(204, 171, 216, 0.18);
+  --grid-color: rgba(110, 198, 202, 0.04);
+  --corner-bracket: rgba(110, 198, 202, 0.4);
+  --selection-bg: rgba(110, 198, 202, 0.3);
+
+  --notice-info: #6ec6ca;
+  --notice-info-bg: rgba(8, 151, 157, 0.22);
+  --notice-important: #ccabd8;
+  --notice-important-bg: rgba(132, 116, 161, 0.25);
+  --notice-caution: #ccabd8;
+  --notice-caution-bg: rgba(204, 171, 216, 0.18);
+
+  --banner-bg-1: #0b0f19;
+  --banner-bg-2: #0a2a2c;
+  --banner-bg-accent-1: rgba(8, 151, 157, 0.3);
+  --banner-bg-accent-2: rgba(132, 116, 161, 0.25);
+  --banner-overlay: linear-gradient(135deg, rgba(11, 15, 25, 0.7), rgba(8, 151, 157, 0.15));
+  --banner-gradient-from: #6ec6ca;
+  --banner-gradient-to: #ccabd8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --accent: #6ec6ca;
+    --accent-soft: #ccabd8;
+    --accent-warm: #ccabd8;
+    --accent-glow: rgba(110, 198, 202, 0.18);
+    --accent-warm-glow: rgba(204, 171, 216, 0.15);
+    --border: rgba(110, 198, 202, 0.2);
+    --border-warm: rgba(204, 171, 216, 0.18);
+    --grid-color: rgba(110, 198, 202, 0.04);
+    --corner-bracket: rgba(110, 198, 202, 0.4);
+    --selection-bg: rgba(110, 198, 202, 0.3);
+
+    --notice-info: #6ec6ca;
+    --notice-info-bg: rgba(8, 151, 157, 0.22);
+    --notice-important: #ccabd8;
+    --notice-important-bg: rgba(132, 116, 161, 0.25);
+    --notice-caution: #ccabd8;
+    --notice-caution-bg: rgba(204, 171, 216, 0.18);
+
+    --banner-bg-1: #0b0f19;
+    --banner-bg-2: #0a2a2c;
+    --banner-bg-accent-1: rgba(8, 151, 157, 0.3);
+    --banner-bg-accent-2: rgba(132, 116, 161, 0.25);
+    --banner-overlay: linear-gradient(135deg, rgba(11, 15, 25, 0.7), rgba(8, 151, 157, 0.15));
+    --banner-gradient-from: #6ec6ca;
+    --banner-gradient-to: #ccabd8;
+  }
+}
+
+/* 마우스 따라다니는 빛 효과 (테마에 색이 직접 적혀 있어 별도로 덮어씀) */
+[data-theme="dark"] .mouse-glow {
+  background: radial-gradient(
+    circle,
+    rgba(110, 198, 202, 0.14) 0%,
+    rgba(204, 171, 216, 0.08) 40%,
+    transparent 70%
+  );
+}

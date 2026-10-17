@@ -47,22 +47,21 @@ defaultContentLanguageInSubdir = false
   sharePlatforms = ['twitter', 'facebook', 'linkedin']
 
   # === Advanced: Custom CSS/JS ===
-  # customCSS = ['css/custom.css']
+  # 색상 팔레트 변경 (site/static/css/custom.css)
+  customCSS = ['css/custom.css']
   # customJS = ['js/custom.js']
   # 한글 글리프가 있는 Noto Sans KR 추가, 테마 기본 일본어 폰트(Zen Maru Gothic)는 제외
   googleFontsURL = 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap'
 
   # === Style Overrides ===
   [params.style]
-    colorAccent = '#4a7de0'
-    colorAccentWarm = '#e8609e'
-    colorAccentSoft = '#a78bfa'
+    # 강조색은 다크/라이트 모드별로 custom.css에서 지정 (여기서 지정하면 다크 모드 색까지 덮어씀)
     fontDisplay = "'Outfit', 'Noto Sans KR', sans-serif"
     fontBody = "'Noto Sans KR', sans-serif"
     fontMono = "'JetBrains Mono', monospace"
     bannerImageText = '#fff'
     # bannerImageSubtitle = 'rgba(255, 255, 255, 0.8)'
-    bannerImageGradient = 'linear-gradient(135deg, #4a7de0, #e8609e)'
+    bannerImageGradient = 'linear-gradient(135deg, #08979d, #8474a1)'
     bannerImageGradientFill = 'transparent'
 
   [params.sidebar]
