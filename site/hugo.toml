@@ -48,15 +48,16 @@ defaultContentLanguageInSubdir = false
   # === Advanced: Custom CSS/JS ===
   # customCSS = ['css/custom.css']
   # customJS = ['js/custom.js']
-  # googleFontsURL = 'https://fonts.googleapis.com/css2?family=...'
+  # 한글 글리프가 있는 Noto Sans KR 추가, 테마 기본 일본어 폰트(Zen Maru Gothic)는 제외
+  googleFontsURL = 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap'
 
   # === Style Overrides ===
   [params.style]
     colorAccent = '#4a7de0'
     colorAccentWarm = '#e8609e'
     colorAccentSoft = '#a78bfa'
-    fontDisplay = "'Outfit', sans-serif"
-    fontBody = "'Zen Maru Gothic', 'Noto Sans TC', sans-serif"
+    fontDisplay = "'Outfit', 'Noto Sans KR', sans-serif"
+    fontBody = "'Noto Sans KR', sans-serif"
     fontMono = "'JetBrains Mono', monospace"
     bannerImageText = '#fff'
     # bannerImageSubtitle = 'rgba(255, 255, 255, 0.8)'
