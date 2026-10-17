@@ -1,0 +1,168 @@
+# Sidebar navigation
+[nav_label]
+other = "내비게이션"
+
+# Sidebar sections
+[categories]
+other = "카테고리"
+
+[view_all]
+other = "전체 보기"
+
+[tags]
+other = "태그"
+
+[recent]
+other = "최근 글"
+
+# Theme toggle
+[light_mode]
+other = "라이트 모드"
+
+[dark_mode]
+other = "다크 모드"
+
+# Banner
+[banner_welcome]
+other = "환영합니다"
+
+[banner_subtitle]
+other = "// blog × code × ideas"
+
+[welcome_sub]
+other = "explore · create · inspire"
+
+# Loading
+[loading]
+other = "LOADING"
+
+# Post meta
+[min_read]
+other = "분 소요"
+
+# Posts single
+[go_back]
+other = "돌아가기"
+
+[blog_section]
+other = "글"
+
+[toc_title]
+other = "목차"
+
+[prev_post]
+other = "이전 글"
+
+[next_post]
+other = "다음 글"
+
+# Index page
+[recent_posts]
+other = "최근 글"
+
+[latest_articles]
+other = "최신 글"
+
+[view_all_posts]
+other = "모든 글 보기"
+
+# Footer
+[footer_text]
+other = "Powered by Hugo × Styled by Spectra"
+
+# Code copy (JS)
+[code_copy]
+other = "복사"
+
+[code_copied]
+other = "복사됨!"
+
+[code_fallback]
+other = "CODE"
+
+# Terms page
+[grid_view]
+other = "그리드"
+
+[list_view]
+other = "목록"
+
+[posts_count]
+other = "개"
+
+# Posts list
+[all_posts]
+other = "전체 글"
+
+[no_posts]
+other = "아직 작성한 글이 없습니다."
+
+# Accessibility
+[skip_to_content]
+other = "본문으로 건너뛰기"
+
+[toggle_theme]
+other = "테마 전환"
+
+# Copyright
+[copyright]
+other = "All Rights Reserved."
+
+# 404 page
+[error_404_title]
+other = "페이지를 찾을 수 없습니다"
+
+[error_404_message]
+other = "요청한 페이지가 존재하지 않거나 다른 위치로 이동했습니다."
+
+[error_404_back]
+other = "홈으로 돌아가기"
+
+# Scroll to top
+[scroll_to_top]
+other = "맨 위로 이동"
+
+# Code block enhancements
+[toggle_line_numbers]
+other = "줄 번호 표시 전환"
+
+# Related posts
+[related_posts]
+other = "관련 글"
+
+# Series
+[series]
+other = "시리즈"
+
+[series_view_all]
+other = "이 시리즈의 모든 글 보기"
+
+# Share buttons
+[share]
+other = "공유"
+
+[share_copy_link]
+other = "링크 복사"
+
+# Search
+[search]
+other = "검색"
+
+[search_placeholder]
+other = "글 검색..."
+
+[search_close]
+other = "검색 닫기"
+
+[search_hint]
+other = "검색어를 입력하세요"
+
+[search_no_results]
+other = "검색 결과가 없습니다"
+
+[search_loading]
+other = "검색 색인을 불러오는 중..."
+
+# No-JS notice
+[noscript_notice]
+other = "검색, 테마 전환, 애니메이션 등 일부 기능은 JavaScript가 필요합니다."
