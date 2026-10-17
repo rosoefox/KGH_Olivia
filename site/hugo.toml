@@ -23,10 +23,11 @@ defaultContentLanguageInSubdir = false
   # contentImageQuality = 90
 
   # === Banner Text ===
-  # 배너 문구를 비워 두기 위해 공백 한 칸을 지정 (빈 문자열이면 테마 기본 문구가 표시됨)
-  bannerTitle = ' '
-  # bannerHighlight = ''
-  bannerSubtitle = ' '
+  bannerTitle = '안녕하세요,'
+  bannerHighlight = '김가현'
+  # bannerSuffix: 강조 글씨 바로 뒤에 붙는 일반 글씨 (site/layouts/partials/banner.html에서 추가한 설정)
+  bannerSuffix = '입니다'
+  bannerSubtitle = '// Animal Biotechnology × Computer Science'
 
   # === Feature Toggles (default: true, set false to disable) ===
   enableLoadingAnimation = true
