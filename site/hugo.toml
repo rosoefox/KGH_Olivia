@@ -113,6 +113,10 @@ defaultContentLanguageInSubdir = false
       [[languages.ko.params.social]]
         name = "GitHub"
         url = "https://github.com/rosoefox"
+      # 테마의 social-icon.html은 name이 "email"일 때 메일 아이콘을 표시함
+      [[languages.ko.params.social]]
+        name = "Email"
+        url = "mailto:kgh_olivia@naver.com"
 
     # -- Navigation Menu --
     [[languages.ko.menus.main]]
