@@ -128,7 +128,7 @@ defaultContentLanguageInSubdir = false
       name = "글"
       pageRef = "/posts"
       weight = 2
-      pre = "✎"
+      pre = "≡"
     [[languages.ko.menus.main]]
       name = "소개"
       pageRef = "/about"
