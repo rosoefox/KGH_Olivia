@@ -5,19 +5,23 @@ draft: false
 toc: false
 ---
 
-## Hi, I'm a Developer
+## 안녕하세요, 김가현(Olivia)입니다
 
-Welcome to my corner of the internet. I'm a software engineer who loves building things with code and sharing what I learn along the way.
+동물생명공학과 컴퓨터공학을 함께 공부하며 **축산 AI 개발자**를 꿈꾸고 있습니다.
 
-This blog is where I write about programming, technology, and the occasional deep-dive into topics that catch my curiosity.
 
-## What I Work With
+## 전공
 
-- **Languages**: Go, TypeScript, Python
-- **Frontend**: Hugo, React, Tailwind CSS
-- **Backend**: REST APIs, PostgreSQL, Redis
-- **DevOps**: Docker, GitHub Actions, Linux
+- **동물생명공학과**
+- **컴퓨터공학과**
 
-## Get in Touch
+## 관심 분야
 
-Feel free to reach out through any of the social links in the sidebar, or open an issue on [GitHub](https://github.com/your-account).
+- 축산 데이터 분석
+- Vibe Coding
+- 스마트 축산
+
+## 연락처
+
+- **GitHub**: [rosoefox](https://github.com/rosoefox)
+- **Email**: [kgh_olivia@naver.com](mailto:kgh_olivia@naver.com)
