@@ -13,7 +13,7 @@ other = "전체 보기"
 other = "태그"
 
 [recent]
-other = "최근 글"
+other = "최신 글"
 
 # Theme toggle
 [light_mode]
@@ -58,7 +58,7 @@ other = "다음 글"
 
 # Index page
 [recent_posts]
-other = "최근 글"
+other = "최신 글"
 
 [latest_articles]
 other = "최신 글"
