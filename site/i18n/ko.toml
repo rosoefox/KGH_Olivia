@@ -58,7 +58,7 @@ other = "다음 글"
 
 # Index page
 [recent_posts]
-other = "최신 글"
+other = "홈"
 
 [latest_articles]
 other = "최신 글"
