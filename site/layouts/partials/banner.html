@@ -22,6 +22,6 @@
   <div class="corner-brackets" aria-hidden="true"><span></span></div>
   <div class="banner-content">
     <h1>{{ if or site.Params.bannerTitle site.Params.bannerHighlight }}{{ with site.Params.bannerTitle }}{{ . }}{{ end }} {{ with site.Params.bannerHighlight }}<span>{{ . }}</span>{{ end }}{{ with site.Params.bannerSuffix }}{{ . }}{{ end }}{{ else }}{{ i18n "banner_welcome" }} <span>{{ .Site.Title }}</span>{{ end }}</h1>
-    <p class="banner-subtitle">{{ with .Site.Params.bannerSubtitle }}{{ . }}{{ else }}{{ i18n "banner_subtitle" | default "// blog × code × ideas" }}{{ end }}</p>
+    <p class="banner-subtitle">{{ with .Site.Params.bannerSubtitle }}{{ . }}{{ else }}{{ i18n "banner_subtitle" | default "Animal Biotechnology × Computer Science" }}{{ end }}</p>
   </div>
 </section>
