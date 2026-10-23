@@ -68,7 +68,7 @@ other = "모든 글 보기"
 
 # Footer
 [footer_text]
-other = "Powered by Hugo × Styled by Spectra"
+other = "김가현 포트폴리오 · Powered by Hugo × Spectra theme"
 
 # Code copy (JS)
 [code_copy]
