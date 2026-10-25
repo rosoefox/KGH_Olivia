@@ -100,3 +100,34 @@
     transparent 70%
   );
 }
+
+/* 기기에서 '동작 줄이기'를 켠 사용자에게는 움직이는 효과를 끔
+   (로딩 화면, 스크롤 등장 효과, 마우스 빛, 배너 시차 스크롤, 떠다니는 점) */
+@media (prefers-reduced-motion: reduce) {
+  .loading-screen,
+  .welcome-screen,
+  .mouse-glow {
+    display: none !important;
+  }
+
+  .site-wrapper,
+  .post-card,
+  .article-content,
+  #termsContainer {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .banner-bg {
+    transform: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
