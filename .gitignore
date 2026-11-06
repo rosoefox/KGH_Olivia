@@ -34,3 +34,7 @@ Thumbs.db
 # Assignment materials (not part of the site)
 /2026_과제1_*.pdf
 /2026_과제1_*.docx
+
+# Python cache (빌드 스크립트 실행 시 .github/ 아래에 생김, 위의 !/.github/** 뒤에 둬야 적용됨)
+__pycache__/
+*.pyc
