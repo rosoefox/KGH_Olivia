@@ -81,3 +81,14 @@ description: "전북 소상공인·중소기업의 수출 지원사업 신청서
 | 🎨 AI 마케팅 이미지 | 수출 품목 정보로 카드뉴스·상세페이지 이미지 생성 |
 | 💬 AI 챗봇 | 수출 절차·서비스 이용 질문 응답 |
 | 🛠️ 관리자 페이지 | 공고·서식 등록, 제출 서류 검토(보완 요청), 사용자 알림 |
+
+### 기술 스택
+
+| 구분 | 사용 기술 |
+|---|---|
+| Frontend | React 19, Vite, Tailwind CSS |
+| Backend | Python, FastAPI, python-docx, PyMuPDF |
+| AI | Gemini 2.5 Flash (Vertex AI), 파인튜닝 모델, Document AI, Cloud Translation |
+| Infra | Cloud SQL, Cloud Storage, Pub/Sub, Secret Manager, Docker |
+
+전체 코드와 실행 방법은 [GLOTIZ 저장소](https://github.com/rosoefox/GLOTIZ)에서 볼 수 있습니다.
