@@ -52,6 +52,9 @@ python .github/pages_build.py --build
 | 배너 레이아웃 | `site/layouts/partials/banner.html` |
 | 소개 페이지 | `site/content/about/index.md` |
 | 글 | `site/content/posts/<카테고리>/` 폴더 안의 `.md` 파일 |
+| 대표 활동 글 (GLOTIZ) | `site/content/posts/projects/glotiz.md` |
+| 브라우저 탭 아이콘 | `site/static/favicon.ico` (설정: `site/hugo.toml`의 `favicon`) |
+| 화면 읽기용 버튼 이름 (접근성 라벨) | `site/layouts/_default/baseof.html`, `site/layouts/posts/single.html` 등 |
 | 카테고리 이름·순서 | `site/content/posts/<카테고리>/_index.md` |
 
 테마 원본(`site/themes/template/`)은 직접 수정하지 않고, 바꿀 파일만 `site/layouts/`에 같은 경로로 복사해 덮어씁니다.
