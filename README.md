@@ -55,6 +55,7 @@ python .github/pages_build.py --build
 | 대표 활동 글 (GLOTIZ) | `site/content/posts/projects/glotiz.md` |
 | 브라우저 탭 아이콘 | `site/static/favicon.ico` (설정: `site/hugo.toml`의 `favicon`) |
 | 화면 읽기용 버튼 이름 (접근성 라벨) | `site/layouts/_default/baseof.html`, `site/layouts/posts/single.html` 등 |
+| 키보드 초점·링크 밑줄 등 접근성 스타일 | `site/static/css/custom.css` (아래쪽), 검색창 닫을 때 초점 되돌리기는 `site/layouts/_default/baseof.html` 끝부분 |
 | 카테고리 이름·순서 | `site/content/posts/<카테고리>/_index.md` |
 
 테마 원본(`site/themes/template/`)은 직접 수정하지 않고, 바꿀 파일만 `site/layouts/`에 같은 경로로 복사해 덮어씁니다.
@@ -86,8 +87,8 @@ python .github/pages_build.py --build
 | 배포 스크립트 | `prepare_github_pages.py`, `.github/pages_build.py`, `.github/workflows/hugo-pages.yml` | 초급프로젝트 수업 제공 스크립트로 생성 |
 | 웹폰트 | Noto Sans KR, Outfit, JetBrains Mono | [Google Fonts](https://fonts.google.com/), SIL Open Font License |
 | 직접 작성 | 사이트 설정, 한국어 번역, 색상 팔레트, 소개·글 내용 | 본인 작성 |
-| 직접 제작 (도구 사용) | 파비콘 `site/static/favicon.ico` | Python(Pillow)으로 생성 |
-| AI 도움 | 설정 수정, 접근성 라벨 한글화, 동작 줄이기 CSS, 글 초안·표 정리(소개·GLOTIZ 글), 이 README 초안 | Claude Code (Anthropic) 사용 후 본인이 검토·수정 |
+| AI 생성 | 파비콘 `site/static/favicon.ico` | Claude Code가 Python(Pillow) 스크립트로 생성, 본인이 디자인 확인 후 사용 |
+| AI 도움 | 설정 수정, 접근성 라벨 한글화, 동작 줄이기 CSS, 키보드 초점·링크 밑줄·태그 대비 CSS, 글 초안·표 정리(소개·GLOTIZ 글), 이 README 초안 | Claude Code (Anthropic) 사용 후 본인이 검토·수정 |
 
 ---
 
