@@ -163,3 +163,20 @@
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
+
+/* 현재 보고 있는 카테고리: 배경색 외에 왼쪽 막대로도 표시 (메뉴 항목과 같은 방식) */
+.sidebar-category-item {
+  position: relative;
+}
+
+.sidebar-category-item.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  border-radius: 0 2px 2px 0;
+  background: linear-gradient(180deg, var(--accent), var(--accent-warm));
+}
