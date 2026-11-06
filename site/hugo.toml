@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = false
 
 [taxonomies]
   tag = 'tags'
-  series = 'series'
+  # series(시리즈)는 쓰지 않아 제외: 빈 영어 'Series' 페이지가 생성되지 않게 함
 
 [params]
   # 브라우저 탭 아이콘 (site/static/favicon.ico)
