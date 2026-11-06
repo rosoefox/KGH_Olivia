@@ -156,3 +156,10 @@
   opacity: 1;
   pointer-events: auto;
 }
+
+/* 본문 링크: 색만으로 구별되지 않도록 밑줄 표시 (태그 버튼은 제외) */
+.article-content a:not(.tag) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
