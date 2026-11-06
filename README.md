@@ -72,6 +72,12 @@ python .github/pages_build.py --build
 4. [Actions 탭](https://github.com/rosoefox/KGH_Olivia/actions)에서 해당 커밋의 실행이 초록색 체크(성공)인지 확인합니다.
 5. 1~2분 뒤 [공개 사이트](https://rosoefox.github.io/KGH_Olivia/)에서 변경 사항을 확인합니다. 바로 반영되지 않으면 `Ctrl+Shift+R`로 강력 새로고침합니다.
 
+**배포가 실패(빨간 X)했을 때**
+
+- 실패한 실행을 눌러 어느 단계에서 멈췄는지 확인합니다.
+- `Prepare dependencies`처럼 도구 설치 단계에서 실패했다면 일시적인 네트워크 문제일 수 있습니다. 실행 화면 오른쪽 위 **Re-run jobs**를 누르거나, 다음 커밋을 push하면 다시 실행됩니다.
+- `Build` 단계에서 실패했다면 로컬에서 `python .github/pages_build.py --build`로 같은 오류가 나는지 확인하고 고친 뒤 다시 push합니다.
+
 ## 출처와 라이선스
 
 | 구분 | 내용 | 출처 / 이용 조건 |
