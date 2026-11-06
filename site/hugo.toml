@@ -14,6 +14,9 @@ defaultContentLanguageInSubdir = false
   series = 'series'
 
 [params]
+  # 브라우저 탭 아이콘 (site/static/favicon.ico)
+  favicon = 'favicon.ico'
+
   # === Content Limits ===
   homepagePostsLimit = 10
   cardSummaryLength = 150
