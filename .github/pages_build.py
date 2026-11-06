@@ -570,7 +570,7 @@ def dependencies(root):
     if not all(shutil.which(name) for name in ('postcss', 'tailwindcss', 'pagefind')):
         tool_dir.mkdir(exist_ok=True)
         run(['npm', 'install', '--ignore-scripts', '--no-audit', '--no-fund',
-             'postcss-cli@11', 'postcss@8', 'autoprefixer@10', '@tailwindcss/cli@4', 'pagefind@1.5.2'], tool_dir)
+             'postcss-cli@11', 'postcss@8', 'autoprefixer@10', '@tailwindcss/cli@4.3.4', 'pagefind@1.5.2']  # 4.3.5는 없는 oxide 4.3.5를 요구해 설치 실패 (2026-11-07), tool_dir)
     for action in state.get('asset_build', []):
         run(action[1:], site / action[0])
     if not shutil.which('asciidoctor') and (any(site.rglob('*.adoc')) or any(site.rglob('*.asciidoc'))):
