@@ -45,7 +45,9 @@ toc: false
 |---|---|
 | Hugo · Git · GitHub | 이 포트폴리오 사이트를 Hugo로 만들고, Git으로 버전을 관리하며 GitHub Actions로 자동 배포 |
 | AI 코딩 도구 (Claude Code) | 사이트 설정 수정, 빌드 오류 분석, 글 정리에 활용하고 결과는 직접 확인 후 반영 |
-| Python | 인공지능 수업 실습과 이 사이트의 배포용 빌드 스크립트 실행 |
+| Python · FastAPI | GLOTIZ 백엔드 서버와 서식 빈칸 탐지·자동 입력 구현, 인공지능 수업 실습 |
+| GCP (Cloud SQL, Storage, Pub/Sub) | GLOTIZ의 데이터·파일·알림 처리를 Supabase에서 GCP로 이전 |
+| Gemini (Vertex AI) | GLOTIZ에서 실제 신청서 양식으로 빈칸 판단 모델 파인튜닝 |
 | C++ | C++프로그래밍, 자료구조, 알고리즘 수업 과제 구현 |
 | Java | 객체지향프로그래밍 수업 과제 구현 |
 
