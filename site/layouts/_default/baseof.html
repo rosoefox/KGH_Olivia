@@ -64,5 +64,22 @@
   </button>
   {{ end }}
   {{- partial "scripts.html" . -}}
+  <script>
+  /* 검색창을 닫으면 키보드 초점을 검색창을 연 버튼으로 되돌림 (숨은 입력칸에 초점이 남지 않게) */
+  (function () {
+    var overlay = document.getElementById('searchOverlay');
+    if (!overlay) return;
+    var opener = null;
+    // 검색창 밖에서 마지막으로 초점을 받은 요소(검색 버튼 등)를 기억
+    document.addEventListener('focusin', function (e) {
+      if (!overlay.contains(e.target)) opener = e.target;
+    });
+    new MutationObserver(function () {
+      if (!overlay.classList.contains('active') && overlay.contains(document.activeElement)) {
+        (opener || document.getElementById('searchTrigger')).focus();
+      }
+    }).observe(overlay, { attributes: true, attributeFilter: ['class'] });
+  })();
+  </script>
 </body>
 </html>
